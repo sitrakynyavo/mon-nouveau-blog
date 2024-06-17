@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Blog de Sitraka</title>
+    </head>
+    <body>
+        <header class="page-header">
+            <div class="container">
+                <h1><a href="/">Django Girls Blog</a></h1>
+            </div>
+          </header>
+          <main class="container">
+              <div class="row">
+                  <div class="col">
+                  {% block content %} <!-- création block-->
+                  {% endblock %}
+                  </div>
+              </div>
+          </main>
+    </body>
+</html>
